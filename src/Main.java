@@ -1,23 +1,14 @@
-// File: App.java
+// File: src/ Main.java
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int hello_world = 5;
-        System.out.println(hello_world);
+        int x = 5;
+        int y = 7;
+        double z = 57;
+        double sum = x + y + z;
+        System.out.println(sum);
 
-        double num2 = 5.0;
-        System.out.println(num2);
-
-        boolean b = false;
-        System.out.println(b);
-
-        char c = '9';
-        System.out.println(c);
-
-        String str = "tim";
-        System.out.println(str);
-
-        int tim = hello_world;
-        System.out.println(tim);
     }
 }
