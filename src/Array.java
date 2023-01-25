@@ -9,5 +9,8 @@ public class Array {
 
         Integer[] intArr = {1,2,3,4,5};
         System.out.println(intArr[1]); // 2
+
+        double[] doubleArr = {1.1,2.2,3.3};
+        System.out.println(doubleArr[2]); // 3.3
     }
 }
