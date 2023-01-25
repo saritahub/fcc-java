@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class Forloop {
     public static void main(String[] args) {
-        for (int i = 0; i <= 10; i++) {
+        int[] arr = {1,2,3,4,5};
+
+        for (int i = 0; i <= arr.length; i++) {
             System.out.println(i);
         }
         
